@@ -1,0 +1,19 @@
+{
+  "name": "debugger",
+  "description": "",
+  "dependencies": {
+    "twitter/hogan.js": "*",
+    "component/dom": "*"
+  },
+  "development": {},
+  "main": "debugger.js",
+  "scripts": [
+    "debugger.js",
+    "scope_template.js",
+    "stack_template.js"
+  ],
+  "styles": [
+    "debugger.css"
+  ],
+  "remotes": []
+}
