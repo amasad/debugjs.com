@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" charset="utf-8" href="build/build.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row code-result">
+        <div class="code col-sm-6"></div>
+        <div class="result col-sm-6"></div>
+      </div>
+      <button type="button" class="btn btn-default run">Run</button>
+      <div class="debugger">
+        <div class="btn-group toolbar">
+          <button type="button" class="btn btn-default resume">
+            <span class="glyphicon glyphicon-play-circle"></span>
+          </button>
+          <button type="button" class="btn btn-default step-over">
+            <span class="glyphicon glyphicon-share-alt"></span>
+          </button>
+          <button type="button" class="btn btn-default step-in">
+            <span class="glyphicon glyphicon-circle-arrow-down"></span>
+          </button>
+          <button type="button" class="btn btn-default step-out">
+            <span class="glyphicon glyphicon-circle-arrow-up"></span>
+          </button>
+        </div>
+        <div class="call-stack"></div>
+        <div class="var-scope"></div>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+    <script type="text/javascript" src="build/build.js" charset="utf-8"></script>
+    <script type="text/javascript">require('boot');</script>
+  </body>
+</html>

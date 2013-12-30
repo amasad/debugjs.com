@@ -1,0 +1,22 @@
+.selected {
+  background: rgba(0, 0, 255, 0.18)!important;
+}
+.glyphicon {
+  font-size: 20px;
+}
+.toolbar button {
+  padding: 4px 10px;
+}
+.result, .code {
+  height: 100%;
+}
+.result iframe, .CodeMirror {
+  width: 100%;
+  height: 100%;
+}
+body, html, .container {
+  height: 100%;
+}
+.code-result {
+  height: calc(100% - 200px);
+}

@@ -1,0 +1,19 @@
+{
+  "name": "debugjs.com",
+  "repo": "amasad/debugjs.com",
+  "description": "debugjs app",
+  "version": "0.0.1",
+  "local": [
+    "boot"
+  ],
+  "paths": [
+    "lib"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "brighthas/bootstrap": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "remotes": []
+}

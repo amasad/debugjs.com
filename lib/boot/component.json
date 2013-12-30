@@ -1,0 +1,16 @@
+{
+  "name": "boot",
+  "description": "boot",
+  "dependencies": {
+    "benatkin/codemirror": "*"
+  },
+  "development": {},
+  "main": "boot.js",
+  "scripts": [
+    "boot.js"
+  ],
+  "styles": [
+    "boot.css"
+  ],
+  "remotes": []
+}
