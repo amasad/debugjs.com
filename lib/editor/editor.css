@@ -1,0 +1,15 @@
+.component-editor {
+  position: relative;
+  border: 1px solid gray;
+}
+
+.component-editor,
+.component-editor .editor {
+  height: 100%;
+}
+
+.component-editor .run {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
