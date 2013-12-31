@@ -1,3 +1,4 @@
 components
 build
 .DS_Store
+lib/*/*template.js
