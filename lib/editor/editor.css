@@ -12,6 +12,7 @@
   top: 0;
   right: 15px;
   z-index: 2;
+  border-radius: 3px;
 }
 
 .component-editor .breakpoints {width: .8em;}

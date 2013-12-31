@@ -6,11 +6,16 @@
     <link type="text/css" rel="stylesheet" charset="utf-8" href="/build/build.css" />
   </head>
   <body>
-    <div class="container">
+    <header class="navbar navbar-default " role="banner">
+      <div class="container">
+        <a class="navbar-brand" href="#">Debug.js</a>
+      </div>
+    </header>
+    <div class="main container">
       <div class="row code-result">
         <div class="code col-sm-6 component-editor">
           <div class="editor"></div>
-          <a role="button" class="btn btn-default run">Run</a>
+          <a role="button" class="btn btn-primary run">Run</a>
         </div>
         <div class="result col-sm-6"></div>
       </div>
@@ -20,16 +25,16 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <div class="btn-group toolbar">
-                <a role="button" class="btn btn-sm resume">
+                <a role="button" class="btn btn-sm resume" disabled>
                   <span class="glyphicon glyphicon-play-circle"></span>
                 </a>
-                <a role="button" class="btn btn-sm step-over">
+                <a role="button" class="btn btn-sm step-over" disabled>
                   <span class="glyphicon glyphicon-share-alt"></span>
                 </a>
-                <a role="button" class="btn btn-sm step-in">
+                <a role="button" class="btn btn-sm step-in" disabled>
                   <span class="glyphicon glyphicon-circle-arrow-down"></span>
                 </a>
-                <a role="button" class="btn btn-sm step-out">
+                <a role="button" class="btn btn-sm step-out" disabled>
                   <span class="glyphicon glyphicon-circle-arrow-up"></span>
                 </a>
               </div>

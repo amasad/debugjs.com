@@ -1,3 +1,17 @@
+header.navbar {
+  background: #428BCA;
+  border-radius: 0;
+  border: 1px solid transparent;
+}
+
+header.navbar .navbar-brand {
+  color: white;
+}
+
+header.navbar .navbar-brand:hover {
+  color: white;
+}
+
 .selected {
   background: rgba(0, 0, 255, 0.18)!important;
 }
@@ -17,10 +31,13 @@
   height: 100%;
 }
 
-body, html, .container {
+body, html{
   height: 100%;
 }
 
+.main.container {
+  height: calc(100% - 72px);
+}
 .code-result {
   height: 60%;
 }

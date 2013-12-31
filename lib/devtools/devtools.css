@@ -45,8 +45,13 @@
 }
 
 .component-devtools .debugger > .panel .panel{
-  border-left: 0;
-  border-right: 0;
+  border: 0;
+}
+
+.component-devtools .debugger > .panel .panel .panel-heading {
+  background: #E0E0E0;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 .component-devtools .debugger .stack-heading,
