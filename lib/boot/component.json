@@ -14,9 +14,8 @@
     "boot.css"
   ],
   "local": [
-    "debugger",
     "editor",
-    "console"
+    "devtools"
   ],
   "remotes": []
 }

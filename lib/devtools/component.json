@@ -1,17 +1,19 @@
 {
-  "name": "console",
+  "name": "devtools",
   "description": "",
   "dependencies": {
     "amasad/console": "*",
+    "twitter/hogan.js": "*",
     "component/dom": "*"
   },
   "development": {},
-  "main": "console.js",
+  "main": "index.js",
   "scripts": [
-    "console.js",
-    "template.js"
+    "index.js",
+    "scope_template.js",
+    "stack_template.js"
   ],
   "styles": [
-    "console.css"
+    "devtools.css"
   ]
 }

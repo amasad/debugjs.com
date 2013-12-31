@@ -6,11 +6,13 @@
   padding: 4px 10px;
 }
 
-.result, .code {
+.code-result .result,
+.code-result .code {
   height: 100%;
 }
 
-.result iframe, .CodeMirror {
+.code-result .result iframe,
+.code-result .CodeMirror {
   width: 100%;
   height: 100%;
 }
