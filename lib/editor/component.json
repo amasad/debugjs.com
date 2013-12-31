@@ -2,8 +2,8 @@
   "name": "editor",
   "description": "",
   "dependencies": {
-    "benatkin/codemirror": "*",
-    "component/dom": "*",
+    "amasad/codemirror": "*",
+    "amasad/dom": "*",
     "benatkin/codemirror-mode-javascript": "*"
   },
   "development": {},

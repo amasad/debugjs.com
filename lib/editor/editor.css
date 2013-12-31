@@ -1,6 +1,5 @@
 .component-editor {
   position: relative;
-  border: 1px solid gray;
 }
 
 .component-editor,
@@ -14,3 +13,7 @@
   right: 15px;
   z-index: 2;
 }
+
+.breakpoints {width: .8em;}
+.breakpoint { color: #822; }
+.CodeMirror {border: 1px solid #aaa;}

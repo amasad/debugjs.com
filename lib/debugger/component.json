@@ -3,7 +3,7 @@
   "description": "",
   "dependencies": {
     "twitter/hogan.js": "*",
-    "component/dom": "*"
+    "amasad/dom": "*"
   },
   "development": {},
   "main": "debugger.js",
