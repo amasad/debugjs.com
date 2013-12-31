@@ -1,0 +1,17 @@
+{
+  "name": "console",
+  "description": "",
+  "dependencies": {
+    "amasad/console": "*",
+    "component/dom": "*"
+  },
+  "development": {},
+  "main": "console.js",
+  "scripts": [
+    "console.js",
+    "template.js"
+  ],
+  "styles": [
+    "console.css"
+  ]
+}

@@ -2,7 +2,8 @@
   "name": "boot",
   "description": "boot",
   "dependencies": {
-    "component/emitter": "*"
+    "component/emitter": "*",
+    "amasad/dom": "*"
   },
   "development": {},
   "main": "boot.js",
@@ -14,7 +15,8 @@
   ],
   "local": [
     "debugger",
-    "editor"
+    "editor",
+    "console"
   ],
   "remotes": []
 }
