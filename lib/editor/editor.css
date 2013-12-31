@@ -14,7 +14,7 @@
   z-index: 2;
 }
 
-.breakpoints {width: .8em;}
-.breakpoint { color: #822; }
-.CodeMirror {border: 1px solid #aaa;}
-.marker {color: #822}
+.component-editor .breakpoints {width: .8em;}
+.component-editor .breakpoint { color: #822; }
+.component-editor .CodeMirror {border: 1px solid #aaa;}
+.component-editor .marker {color: #822}
