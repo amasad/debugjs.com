@@ -14,23 +14,35 @@
         </div>
         <div class="result col-sm-6"></div>
       </div>
-      <div class="component-debugger">
-        <div class="btn-group toolbar">
-          <a role="button" class="btn btn-default resume">
-            <span class="glyphicon glyphicon-play-circle"></span>
-          </a>
-          <a role="button" class="btn btn-default step-over">
-            <span class="glyphicon glyphicon-share-alt"></span>
-          </a>
-          <a role="button" class="btn btn-default step-in">
-            <span class="glyphicon glyphicon-circle-arrow-down"></span>
-          </a>
-          <a role="button" class="btn btn-default step-out">
-            <span class="glyphicon glyphicon-circle-arrow-up"></span>
-          </a>
+      <div class="row debugger-console">
+        <div class="component-debugger col-sm-offset-6 col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading sticky">
+              <div class="btn-group toolbar">
+                <a role="button" class="btn btn-sm btn-primary resume">
+                  <span class="glyphicon glyphicon-play-circle"></span>
+                </a>
+                <a role="button" class="btn btn-sm btn-primary step-over">
+                  <span class="glyphicon glyphicon-share-alt"></span>
+                </a>
+                <a role="button" class="btn btn-sm btn-primary step-in">
+                  <span class="glyphicon glyphicon-circle-arrow-down"></span>
+                </a>
+                <a role="button" class="btn btn-sm btn-primary step-out">
+                  <span class="glyphicon glyphicon-circle-arrow-up"></span>
+                </a>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading stack-heading"><h6>Call Stack</h6></div>
+              <table class="call-stack table table-striped"><tr></tr></table>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading scope-heading"><h6>Scope</h6></div>
+              <table class="var-scope table table-striped"><tr></tr></table>
+            </div>
+          </div>
         </div>
-        <div class="call-stack"></div>
-        <div class="var-scope"></div>
       </div>
     </div>
     <script src="bundle.js"></script>

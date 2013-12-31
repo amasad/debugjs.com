@@ -1,8 +1,6 @@
-<ul class="list-group">
-  {{#stack}}
-    <li class="list-group-item">
-      <span class="badge">{{filename}}</span>
-      {{name}}
-    </li>
-  {{/stack}}
-</ul>
+{{#stack}}
+  <tr>
+    <td>{{name}}</td>
+    <td><small>{{filename}}</small></td>
+  </tr>
+{{/stack}}

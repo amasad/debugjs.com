@@ -20,5 +20,9 @@ body, html, .container {
 }
 
 .code-result {
-  height: calc(100% - 200px);
+  height: 60%;
+}
+
+.debugger-console {
+  height: 40%;
 }
