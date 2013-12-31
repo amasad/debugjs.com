@@ -3,7 +3,8 @@
   "description": "",
   "dependencies": {
     "benatkin/codemirror": "*",
-    "component/dom": "*"
+    "component/dom": "*",
+    "benatkin/codemirror-mode-javascript": "*"
   },
   "development": {},
   "main": "index.js",
