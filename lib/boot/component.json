@@ -2,7 +2,6 @@
   "name": "boot",
   "description": "boot",
   "dependencies": {
-    "benatkin/codemirror": "*",
     "component/emitter": "*"
   },
   "development": {},
@@ -14,7 +13,8 @@
     "boot.css"
   ],
   "local": [
-    "debugger"
+    "debugger",
+    "editor"
   ],
   "remotes": []
 }

@@ -11,7 +11,8 @@
   ],
   "keywords": [],
   "dependencies": {
-    "brighthas/bootstrap": "*"
+    "amasad/bootstrap-css": "*",
+    "FortAwesome/Font-Awesome": "*"
   },
   "development": {},
   "license": "MIT",
