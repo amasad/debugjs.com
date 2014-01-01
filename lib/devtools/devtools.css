@@ -63,6 +63,10 @@
   font-size: 12px;
 }
 
+.component-devtools .debugger {
+  padding-bottom: 10px;
+}
+
 .component-devtools .console {
   padding-top: 10px;
   height: calc(100% - 10px);
@@ -72,6 +76,7 @@
   height: 100%;
   overflow: scroll;
   padding-bottom: 5px;
+  border: 1px solid #ddd;
 }
 
 .component-devtools pre {
