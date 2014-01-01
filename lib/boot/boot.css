@@ -1,5 +1,8 @@
+body {
+  font-family: 'Ubuntu Mono', sans-serif;
+}
 header.navbar {
-  background: #428BCA;
+  background: #25A8D1;
   border-radius: 0;
   border: 1px solid transparent;
 }
@@ -12,10 +15,6 @@ header.navbar .navbar-brand:hover {
   color: white;
 }
 
-.selected {
-  background: rgba(0, 0, 255, 0.18)!important;
-}
-
 .toolbar button {
   padding: 4px 10px;
 }
@@ -25,10 +24,10 @@ header.navbar .navbar-brand:hover {
   height: 100%;
 }
 
-.code-result .result iframe,
-.code-result .CodeMirror {
+.code-result .result iframe {
   width: 100%;
   height: 100%;
+  border: 1px solid #ccc;
 }
 
 body, html{

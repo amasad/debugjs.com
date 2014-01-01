@@ -1,3 +1,21 @@
+.component-devtools .console,
+.component-devtools .debugger {
+  padding: 10px 0 10px 0;
+}
+
+.component-devtools .console {
+  height: 100%;
+  border-right: 0;
+}
+
+.component-devtools .component-console {
+  height: 100%;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-right: 0;
+}
+
 .component-devtools .debugger,
 .component-devtools .debugger > .panel {
   height: 100%;
@@ -41,7 +59,8 @@
 }
 
 .component-devtools .debugger .toolbar .btn {
-  border-right: 1px solid #DDDDDD;
+  border-right: 1px solid #CCC;
+  color: #25A8D1;
 }
 
 .component-devtools .debugger > .panel .panel{
@@ -65,18 +84,6 @@
 
 .component-devtools .debugger {
   padding-bottom: 10px;
-}
-
-.component-devtools .console {
-  padding-top: 10px;
-  height: calc(100% - 10px);
-}
-
-.component-devtools .component-console {
-  height: 100%;
-  overflow: scroll;
-  padding-bottom: 5px;
-  border: 1px solid #ddd;
 }
 
 .component-devtools pre {
