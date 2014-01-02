@@ -1,0 +1,35 @@
+header.navbar {
+  background: #25A8D1;
+  border-radius: 0;
+  border: 1px solid transparent;
+}
+
+header.navbar .navbar-brand {
+  color: white;
+}
+
+header.navbar .navbar-brand:hover {
+  color: white;
+}
+
+header.navbar .nav {
+  margin-left: 25px;
+}
+
+header.navbar .nav li a {
+  color: white;
+  background: #25A8D1;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+header.navbar .nav li.active a,
+header.navbar .nav li.active a:hover {
+  color: white;
+  background: #5BC0DE;
+}
+
+header.navbar .nav li.active a:hover,
+header.navbar .nav li a:hover {
+  color: rgb(228, 228, 228);;
+}

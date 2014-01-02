@@ -1,0 +1,15 @@
+{
+  "name": "header",
+  "description": "",
+  "dependencies": {
+    "component/dom": "*"
+  },
+  "development": {},
+  "main": "header.js",
+  "scripts": [
+    "header.js"
+  ],
+  "styles": [
+    "header.css"
+  ]
+}
