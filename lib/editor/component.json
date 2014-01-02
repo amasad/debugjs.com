@@ -4,7 +4,8 @@
   "dependencies": {
     "amasad/codemirror": "*",
     "amasad/dom": "*",
-    "benatkin/codemirror-mode-javascript": "*"
+    "benatkin/codemirror-mode-javascript": "*",
+    "component/debounce": "*"
   },
   "development": {},
   "main": "index.js",
