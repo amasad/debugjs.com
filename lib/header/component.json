@@ -2,12 +2,16 @@
   "name": "header",
   "description": "",
   "dependencies": {
-    "component/dom": "*"
+    "component/dom": "*",
+    "component/tip": "*",
+    "component/aurora-tip": "*",
+    "twitter/hogan.js": "*"
   },
   "development": {},
   "main": "header.js",
   "scripts": [
-    "header.js"
+    "header.js",
+    "save_template.js"
   ],
   "styles": [
     "header.css"

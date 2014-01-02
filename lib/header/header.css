@@ -33,3 +33,20 @@ header.navbar .nav li.active a:hover,
 header.navbar .nav li a:hover {
   color: rgb(228, 228, 228);;
 }
+
+.save-tip {
+  padding: 5px;
+}
+
+.save-tip input {
+  outline: none;
+  border: 0;
+}
+
+.tip-inner {
+  background-color: rgba(37, 209, 163, 0.66);
+}
+
+.tip-arrow {
+  border-color: rgba(37, 209, 163, 0.66);
+}
