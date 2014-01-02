@@ -2,7 +2,8 @@
   "name": "models",
   "description": "",
   "dependencies": {
-    "component/model": "*"
+    "component/model": "*",
+    "segmentio/model-defaults": "*"
   },
   "development": {},
   "main": "models.js",

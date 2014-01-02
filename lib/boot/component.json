@@ -16,7 +16,8 @@
   "local": [
     "editor",
     "devtools",
-    "models"
+    "models",
+    "header"
   ],
   "remotes": []
 }
