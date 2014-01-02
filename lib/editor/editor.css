@@ -10,8 +10,8 @@
 
 .component-editor .run {
   position: absolute;
-  top: 0;
-  right: 15px;
+  top: 2px;
+  right: 17px;
   z-index: 2;
   border-radius: 3px;
   background-color: #25D1A3;
