@@ -8,10 +8,9 @@
     "component/debounce": "*"
   },
   "development": {},
-  "main": "index.js",
+  "main": "editor.js",
   "scripts": [
-    "index.js",
-    "template.js"
+    "editor.js"
   ],
   "styles": [
     "editor.css"
