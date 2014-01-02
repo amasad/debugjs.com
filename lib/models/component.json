@@ -1,0 +1,12 @@
+{
+  "name": "models",
+  "description": "",
+  "dependencies": {
+    "component/model": "*"
+  },
+  "development": {},
+  "main": "models.js",
+  "scripts": [
+    "models.js"
+  ]
+}
