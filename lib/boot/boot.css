@@ -15,9 +15,15 @@ header.navbar .navbar-brand:hover {
   color: white;
 }
 
+header.navbar .nav {
+  margin-left: 25px;
+}
+
 header.navbar .nav li a {
   color: white;
   background: #25A8D1;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 header.navbar .nav li.active a,
