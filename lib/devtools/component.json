@@ -4,7 +4,8 @@
   "dependencies": {
     "amasad/console": "*",
     "twitter/hogan.js": "*",
-    "component/dom": "*"
+    "amasad/dom": "*",
+    "amasad/node-util": "*"
   },
   "development": {},
   "main": "index.js",

@@ -2,7 +2,7 @@
   "name": "header",
   "description": "",
   "dependencies": {
-    "component/dom": "*",
+    "amasad/dom": "*",
     "component/tip": "*",
     "component/aurora-tip": "*",
     "twitter/hogan.js": "*"
