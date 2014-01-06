@@ -6,7 +6,7 @@ TEMPLATES = $(HTML:.html=.js)
 
 build: components $(SRC) $(CSS) $(TEMPLATES)
 	@echo building
-	@component build --dev
+	@component build
 
 components: component.json $(COMPONENTJSON)
 	@echo installing
@@ -16,8 +16,11 @@ components: component.json $(COMPONENTJSON)
 	@echo converting
 	@component convert $<
 
+minify:
+	@component build --use component-minify
+
 clean:
 	@echo cleaning
 	rm -fr build components $(TEMPLATES)
 
-.PHONY: clean
+.PHONY: clean minify
