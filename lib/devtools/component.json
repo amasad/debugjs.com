@@ -5,7 +5,8 @@
     "amasad/console": "*",
     "twitter/hogan.js": "*",
     "amasad/dom": "*",
-    "amasad/node-util": "*"
+    "amasad/node-util": "*",
+    "amasad/debugjs": "*"
   },
   "development": {},
   "main": "index.js",
