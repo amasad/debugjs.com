@@ -16,21 +16,21 @@ header.navbar .nav {
   margin-left: 25px;
 }
 
-header.navbar .nav li a {
+header.navbar .nav.files li a {
   color: white;
   background: #25A8D1;
   padding-left: 7px;
   padding-right: 7px;
 }
 
-header.navbar .nav li.active a,
-header.navbar .nav li.active a:hover {
+header.navbar .nav.files li.active a,
+header.navbar .nav.files li.active a:hover {
   color: white;
   background: #5BC0DE;
 }
 
-header.navbar .nav li.active a:hover,
-header.navbar .nav li a:hover {
+header.navbar .nav.files li.active a:hover,
+header.navbar .nav.files li a:hover {
   color: rgb(228, 228, 228);;
 }
 
@@ -49,4 +49,8 @@ header.navbar .nav li a:hover {
 
 .tip-arrow {
   border-color: rgba(37, 209, 163, 0.66);
+}
+
+.project-link {
+  padding: 0 5px 0 0!important;
 }
